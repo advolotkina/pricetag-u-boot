@@ -1,3 +1,9 @@
+Модифицированный u-boot - https://github.com/Lichee-Pi/u-boot
+
+Компиляция:
+make ARCH=arm CROSS_COMPILE=arm-linux-gnueabi- -j4
+u-boot-sunxi-with-spl.bin - скомпиленный бинарник юбута
+
 #
 # (C) Copyright 2000 - 2013
 # Wolfgang Denk, DENX Software Engineering, wd@denx.de.
